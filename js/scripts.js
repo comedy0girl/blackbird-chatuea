@@ -7009,17 +7009,17 @@ $('.grid').isotope({
    layoutMode: 'fitRows',
     layoutMode: 'masonry',
   masonry: {
-    columnWidth: 50%
+    columnWidth: 100%
   },
   cellsByRow: {
-    columnWidth: 220,
+    columnWidth: 100%,
     rowHeight: 220
   },
   masonryHorizontal: {
     rowHeight: 110
   },
   cellsByColumn: {
-    columnWidth: 220,
+    columnWidth: 100%,
     rowHeight: 220
   }
 

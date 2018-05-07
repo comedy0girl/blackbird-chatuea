@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-	<link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/style.min.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url') ?>/css/styles.min.css" type="text/css" media="screen" />
 
 
 

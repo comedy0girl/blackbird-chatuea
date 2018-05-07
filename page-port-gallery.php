@@ -6,7 +6,7 @@ get_header(); ?>
 
 <div class="twelve columns content">
 
-        <div class="offset-by-one eleven columns content-inner">
+        <div class="offset-by-one ten columns content-inner">
   
             <div class="gallery-inner">
                  <?php if ( have_posts() ) : 

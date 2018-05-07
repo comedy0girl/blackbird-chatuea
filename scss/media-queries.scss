@@ -1,0 +1,168 @@
+@media only screen and (max-width:1238px) {
+    .row.hero-navigation .top-inner .logo-bird img {
+        max-width: 81%
+    }
+}
+
+@media only screen and (max-width:1116px) {
+    .row.hero-navigation ul li {
+        margin-left: 0
+    }
+    .row.hero-navigation .top-inner .menu-header-menu-container {
+        width: 55%
+    }
+    .row.hero-navigation .top-inner .logo-bird img {
+        max-width: 100%
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .project-inner .project-main-image {
+        width: 100%
+    }
+    .project-inner .content-inner {
+        width: 100%
+    }
+    .one-half.column.contact-box,
+    .one-half.column.instagram-box {
+        width: 100%;
+        height: auto
+    }
+    .button-mobile {
+        display: block
+    }
+    .row.hero-navigation .top-inner .logo-bird,
+    .row.hero-navigation .top-inner .logo-main,
+    .row.hero-navigation .top-inner .menu-header-menu-container {
+        display: none
+    }
+    .cell-logo {
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: -6em
+    }
+    .cell-logo a.current {
+        border-bottom: none
+    }
+    .cell-logo img {
+        max-width: 100%
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .four.columns.footer-contact,
+    .four.columns.footer-site-links,
+    .four.columns.footer-social {
+        width: 100%;
+        margin-left: 0
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .one-half.column.aboutBlurb,
+    .one-half.column.aboutImg {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .three.columns.latest-img {
+        width: 100%
+    }
+    .eleven.columns.latest-inner {
+        width: 50%;
+        margin: 0 auto;
+        float: none
+    }
+    .menu-header-menu-container {
+        text-align: center
+    }
+    .top-banner {
+        margin: 0;
+        width: 100%
+    }
+    .top-banner .top-inner .logo-main {
+        float: none!important;
+        text-align: center!important
+    }
+    .content-inner p {
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:590px) {
+    .portfolio-gallery .gallery {
+        margin: 0
+    }
+    .offset-by-one.ten.columns.contact-inner {
+        padding: 2em 1em;
+        text-align: center
+    }
+}
+
+@media only screen and (max-width:570px) {
+    .full-contact .contact-form {
+        width: 75%;
+        margin: 0 auto;
+        padding: 0
+    }
+}
+
+@media only screen and (max-width:550px) {
+    .project-inner {
+        margin: 0
+    }
+    .six.columns.footer-contact,
+    .six.columns.footer-site-links {
+        padding: 1em
+    }
+    .headerSpan span {
+        font-size: 1.5em
+    }
+}
+
+@media only screen and (max-width:515px) {
+    .menu-header-menu-container ul#menu-header-menu li a {
+        font-size: 1em
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .headerSpan span:after,
+    .headerSpan span:before {
+        display: none
+    }
+    .button-mobile {
+        margin-top: 1em
+    }
+}
+
+@media only screen and (max-width:434px) {
+    .gallery-inner {
+        width: 50%
+    }
+    .menu-header-menu-container ul#menu-header-menu li {
+        margin-right: 0;
+        font-size: .9em
+    }
+    .top-banner .top-inner .logo-main img {
+        max-width: 50%
+    }
+    .cell-logo {
+        margin: 0;
+        margin-left: 2em
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .cell-logo {
+        margin: 0;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: -7em
+    }
+    .cell-logo img {
+        max-width: 100%
+    }
+}

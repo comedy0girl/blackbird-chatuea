@@ -1,0 +1,98 @@
+footer.twelve.columns.footer {
+    background-color: $text;
+    color: $background;
+    list-style: none;
+    background-color: $text;
+    border-top: 1px dotted
+}
+
+footer.twelve.columns.footer a.mail-me {
+    border-bottom: 1px dotted $hovers;
+    text-decoration: none;
+    color: $background;
+}
+
+footer.twelve.columns.footer a {
+    color: $background;
+}
+
+footer.twelve.columns.footer a.current {
+    border-bottom: 0;
+    color: $hovers !important;
+}
+
+footer.twelve.columns.footer a.current h6 {
+    font-size: .8em
+}
+
+footer.twelve.columns.footer .footer-site-links {
+    background-color: $background;
+    text-align: center;
+    padding: 3em;
+}
+
+footer.twelve.columns.footer .footer-site-links h6 {
+    color: $text;
+}
+
+footer.twelve.columns.footer .footer-site-links img.footer-bird {
+    max-width: 30%;
+    margin-bottom: -1em;
+}
+
+footer.twelve.columns.footer .footer-site-links .nav.nav--footer {
+    text-align: left;
+}
+
+footer.twelve.columns.footer .footer-site-links .nav.nav--footer ul li {
+    display: block;
+    text-align: center;
+    margin: 0;
+}
+
+footer.twelve.columns.footer .footer-site-links .nav.nav--footer ul li a {
+    color: $text;
+    font-size: 1em;
+    text-decoration: none;
+    padding: .5em;
+}
+
+footer.twelve.columns.footer .footer-contact,
+footer.twelve.columns.footer .footer-social {
+    background-color: $text;
+    padding: 3em;
+    text-align: center;
+}
+
+footer.twelve.columns.footer .footer-contact h6,
+footer.twelve.columns.footer .footer-social h6 {
+    color: $background;
+}
+
+footer.twelve.columns.footer .footer-contact li,
+footer.twelve.columns.footer .footer-social li {
+    margin: 0;
+    display: block;
+}
+
+footer.twelve.columns.footer .footer-contact li i.fa.fa-facebook-square,
+footer.twelve.columns.footer .footer-contact li i.fa.fa-instagram,
+footer.twelve.columns.footer .footer-contact li i.fa.fa-twitter,
+footer.twelve.columns.footer .footer-social li i.fa.fa-facebook-square,
+footer.twelve.columns.footer .footer-social li i.fa.fa-instagram,
+footer.twelve.columns.footer .footer-social li i.fa.fa-twitter {
+    font-size: 3em;
+    padding: .2em;
+}
+
+footer.twelve.columns.footer p.copyright {
+    background-color: $light;
+    color: $text;
+    font-family: texgyreadventorregular;
+    text-align: left;
+    padding-left: .5em;
+    font-size: .7em;
+    margin: 0;
+    border-top: 1px dotted;
+    padding: 1em
+}

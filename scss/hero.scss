@@ -1,0 +1,152 @@
+
+.divider img {
+    max-width: 50%;
+    opacity: .8
+}
+
+.headerSpan span {
+    display: inline;
+    position: relative;
+    font-size: 2.5em;
+    text-transform: uppercase
+}
+
+.headerSpan span:before {
+    content: "";
+    position: absolute;
+    height: 28px;
+    border-bottom: 1px dotted #202224;
+    top: 0;
+    width: 100%;
+    right: 100%;
+    margin-right: 15px
+}
+
+.headerSpan span:after {
+    content: "";
+    position: absolute;
+    height: 28px;
+    border-bottom: 1px dotted #202224;
+    top: 0;
+    width: 100%;
+    left: 100%;
+    margin-left: 15px
+}
+
+
+.hero-container .row.hero-navigation {
+    max-width: 100%
+}
+
+.hero-container .banner {
+    background: #2e2e2e;
+    padding: 0;
+    max-width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    border-bottom: 1px dotted;
+    border-top: 1px dotted
+}
+
+.row.hero-navigation {
+    z-index: 999;
+    width: 100%;
+    height: 140px
+}
+
+.row.hero-navigation ul li {
+    margin-left: 1em
+}
+
+.row.hero-navigation .top-inner {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.row.hero-navigation .top-inner .logo-main {
+    width: 20%;
+    margin-top: 3em;
+    float: right;
+    text-align: center
+}
+
+.row.hero-navigation .top-inner .logo-main a.current {
+    border-bottom: none!important;
+    color: #066!important
+}
+
+.row.hero-navigation .top-inner .logo-main img {
+    max-width: 100%
+}
+
+.row.hero-navigation .top-inner .menu-header-menu-container {
+    float: left;
+    width: 60%;
+    padding: 33px 0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.row.hero-navigation .top-inner .logo-bird {
+    width: 15%;
+    float: left;
+    margin-top: 1em;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.row.hero-navigation .top-inner .logo-bird a.current {
+    border-bottom: none!important;
+    color: #066!important
+}
+
+.row.hero-navigation .top-inner .logo-bird img {
+    max-width: 65%
+}
+
+.hero-latest-work {
+    height: 300px
+}
+
+.hero-latest-work .hero-lastest-info {
+    padding: 4em
+}
+
+.hero-latest-work .hero-latest-img img {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden
+}
+
+
+.hero-container {
+    height: 600px
+}
+
+.hero-container .row.hero-navigation {
+    max-width: 100%
+}
+
+.hero-container .banner {
+    background: #2e2e2e;
+    padding: 0;
+    max-width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    o-background-size: cover;
+    background-size: cover;
+    border-bottom: 1px dotted;
+    border-top: 1px dotted
+}
+

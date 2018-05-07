@@ -1,0 +1,32 @@
+.about-container {
+    margin: 2em;
+}
+
+.about-container .about-inner h2 {
+    margin-left: .6em;
+    border-bottom: 1px dotted;
+}
+
+.about-container .aboutBlurb,
+.about-container .aboutImg {
+    float: left;
+    margin: 0;
+}
+
+.about-container .aboutImg {
+    overflow: hidden;
+}
+
+.about-container .aboutImg img {
+    margin: auto;
+    margin-left: -9em;
+}
+
+.about-container .aboutBlurb {
+    background-color: $light;
+    margin: 0
+}
+
+.about-container .aboutBlurb p {
+    padding: 0 2em;
+}

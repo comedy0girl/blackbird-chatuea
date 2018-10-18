@@ -107,9 +107,11 @@ a.current {
     top: 6px;
     z-index: 999;
     font-size: 30px;
-    color: #033;
     display: none;
     margin-top: 2em;
+    a {
+        color: $hovers;
+    }
 }
 
 .button-mobile a.btn-close,
@@ -123,7 +125,7 @@ a.current {
 }
 
 .btn-open:after {
-    color: #333;
+    color: $hovers !important;
     content: "\f0c9";
     font-family: FontAwesome;
     -webkit-transition-property: all .2s linear 0s;

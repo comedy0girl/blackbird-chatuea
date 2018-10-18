@@ -21,6 +21,22 @@
 <meta name="theme-color" content="#006666" />
 
 
+<script async src="//pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({
+google_ad_client: "pub-4324024435305652",
+enable_page_level_ads: true
+});
+</script>
+
+
+<meta name="p:domain_verify" content="762571b50b0fbe1321638fd714ed04dd"/>
+
+
+
+
+
 </head>
 
 <body <?php body_class(); ?>>

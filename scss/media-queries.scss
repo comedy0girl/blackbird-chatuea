@@ -111,9 +111,9 @@
 }
 
 @media only screen and (max-width:590px) {
-    .portfolio-gallery .gallery {
-        margin: 0
-    }
+    // .portfolio-gallery .gallery {
+    //     margin: 0
+    // }
     .offset-by-one.ten.columns.contact-inner {
         padding: 2em 1em;
         text-align: center
@@ -153,6 +153,13 @@
     }
 }
 
+@media only screen and (max-width:495px) {
+    .gallery-inner {
+        width: 100%;
+    }
+}
+
+
 @media only screen and (max-width:480px) {
     .headerSpan span:after,
     .headerSpan span:before {
@@ -160,6 +167,10 @@
     }
     .button-mobile {
         margin-top: 1em
+    }
+    .content-inner.gallery.container {
+        width: 50%;
+        margin: 0 auto;
     }
 }
 
@@ -189,5 +200,11 @@
     }
     .cell-logo img {
         max-width: 100%
+    }
+}
+
+@media only screen and (max-width:370px) { 
+    .content-inner.gallery.container {
+        width: 50%; 
     }
 }

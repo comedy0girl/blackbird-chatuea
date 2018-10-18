@@ -21,12 +21,19 @@
     </div>
 </header>
 
+<div class="row twelve columns mobi">
+    <div class="button-mobile">
+    <a class="btn-open" ></a>
+</div>
+</div>
+
+
+
 <div class="cell-logo">
     <a href="/"><img src="<?php bloginfo('template_url') ?>/assets/img/logo.png"></a>
 </div>
-<div class="button-mobile">
-    <a class="btn-open" ></a>
-</div>
+
+
 
 <div class="overlay">
     <div class="wrap">

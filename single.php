@@ -4,7 +4,7 @@
 <div class="site-container">
     <div class="twelve columns single-content">
         <div class="nine columns content-inner blog">
-    	   <h3 class="post__title"><?php the_title(); ?></h3>
+    	     <h3 class="post__title"><?php the_title(); ?></h3>
             <div class="postInfo">
                 <span><?php $categories = get_the_category();
                     if ( ! empty( $categories ) ) {

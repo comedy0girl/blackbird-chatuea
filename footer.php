@@ -3,13 +3,13 @@
 
                 <div class="four columns footer-contact">
                     <h6>Contact</h6>
-                    <li><a class="mail-me" href="mailto:ryryblackbird@gmail.com?Subject=Blackbird%20Chataue%20Enquiry">ryryblackbird@gmail.com</a></li>
+                    <li><a class="mail-me" href="mailto:ryan@blackbirdchateau.com?Subject=Blackbird%20Chataue%20Enquiry">ryryblackbird@gmail.com</a></li>
                     <li>West Hollywood, CA</li>
                     
                 </div>
                  <div class="four columns footer-site-links">
                     <h6>Navigation</h6><?php 
-                    wp_nav_menu(['theme_location' => 'footer', 'menu_class' => 'nav nav--footer']); ?>
+                wp_nav_menu(['theme_location' => 'footer-menu' ]); ?>
                      <h6><img class="footer-bird" src="<?php bloginfo('template_url') ?>/assets/img/bird.png"></h6>
                 </div>
                 <div class="four columns footer-social">

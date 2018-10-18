@@ -25,10 +25,26 @@ footer.twelve.columns.footer a.current h6 {
     font-size: .8em
 }
 
+
+
 footer.twelve.columns.footer .footer-site-links {
     background-color: $background;
     text-align: center;
     padding: 3em;
+    .menu-footer-container {
+        ul#menu-footer {
+            margin: 0;
+            li.menu-item {
+                a {
+                    color: $text;
+                    &:hover {
+                        color: $hovers;
+                    }
+                }
+            }
+        }
+    }
+  
 }
 
 footer.twelve.columns.footer .footer-site-links h6 {
@@ -88,7 +104,7 @@ footer.twelve.columns.footer .footer-social li i.fa.fa-twitter {
 footer.twelve.columns.footer p.copyright {
     background-color: $light;
     color: $text;
-    font-family: texgyreadventorregular;
+    font-family: $headline;
     text-align: left;
     padding-left: .5em;
     font-size: .7em;

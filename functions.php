@@ -15,8 +15,6 @@
 		    );
 		    return array_merge( $sizes, $custom_sizes );
 		}
-
-
 	}	
 
    function register_my_menus() {
@@ -28,6 +26,21 @@
 	  );
 	}
 
+
+
+    //sidebar
+
+    register_sidebar( array(
+        'name'          => 'Blog Sidebar',
+        'id'            => 'blog_sidebar',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h5 class="rounded">',
+        'after_title'   => '</h5>',
+    ) );
+
+
+    //image and uploads
 	@ini_set( 'upload_max_size' , '100M' );
 	@ini_set( 'post_max_size', '100M');
 	@ini_set( 'max_execution_time', '300' );

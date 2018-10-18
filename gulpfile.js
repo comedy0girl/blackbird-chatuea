@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'),
     rename = require('gulp-rename'),
     concat = require('gulp-concat'),
-    notify = require('gulp-notify'),
+    // notify = require('gulp-notify'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
     connect = require('gulp-connect'),
@@ -20,25 +20,40 @@ gulp.task('webserver', function() {
 });
 
 gulp.task('styles', function() {
-  return gulp.src('scss/**.scss')
+  return gulp.src('scss/style.scss')
     .pipe(sass({ style: 'expanded' }))
     .pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     .pipe(concat('styles.min.css'))
     .pipe(gulp.dest('css/'))
     .pipe(cleanCSS())
-    .pipe(gulp.dest('css/'))
-    .pipe(notify({ message: 'Styles task complete' }));
+    .pipe(gulp.dest('css/'));
 });
+
 
 
 
 // Concatenate & Minify JS
 gulp.task('scripts', function() {
-    gulp.src('**.js')
-    .pipe(concat('all.min.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('dist/'));
+    return gulp.src(['js/isotope.js','js/infinite-scroll.js', 'js/scripts.js'])
+        .pipe(concat('all.js'))
+        .pipe(gulp.dest('dist'))
+        .pipe(rename('all.min.js'))
+       .pipe(uglify().on('error', function(e){
+            console.log(e);
+         }))
+        .pipe(gulp.dest('dist'));
 });
+
+
+
+
+// // Concatenate & Minify JS
+// gulp.task('scripts', function() {
+//     gulp.src('**.js')
+//     .pipe(concat('all.min.js'))
+//     .pipe(uglify())
+//     .pipe(gulp.dest('dist/'));
+// });
 
 
 

@@ -4,79 +4,100 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: texgyreadventorregular;
+    font-family: $headline;
     letter-spacing: .05em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 p {
     letter-spacing: .05em;
-    font-family: cabinregular
+    font-family: $paras;
 }
 
 body,
 html {
     margin: 0;
     padding: 0;
-    background-image: #fff url(../assets/img/bg.png)
+    background-image: $background url(../assets/img/bg.png);
 }
 
 a {
-    color: #202224
+    color: $text;
 }
 
 a:hover {
-    color: #066
+    color: $hovers;
 }
 
 img.alignright {
     float: right;
     margin: 0 0 1em 1em;
-    max-width: 100%
+    max-width: 100%;
 }
 
 img.alignleft {
     float: left;
     margin: 0 1em 1em 0;
-    max-width: 100%
+    max-width: 100%;
 }
 
 img.aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .alignright {
     float: right;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .alignleft {
     float: left;
-    max-width: 100%
+    max-width: 100%;
 }
 
 .aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%
+    max-width: 100%;
 }
 
 
 
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
 
 
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding: 1em 0;
+}
 
 .cell-logo {
-    display: none
+    display: none;
 }
 
 a.current {
     border-bottom: 1px solid;
-    color: #066!important
+    color: $hovers !important;
 }
 
 .button-mobile {
@@ -88,17 +109,17 @@ a.current {
     font-size: 30px;
     color: #033;
     display: none;
-    margin-top: 2em
+    margin-top: 2em;
 }
 
 .button-mobile a.btn-close,
 .button-mobile a.btn-open {
     border-bottom: 0;
-    color: transparent!important
+    color: transparent!important;
 }
 
 .button a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .btn-open:after {
@@ -109,15 +130,15 @@ a.current {
     transition-property: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s
+    -o-transition: all .2s linear 0s;
 }
 
 .btn-open:hover:after {
-    color: #blackbird
+    color: $hovers;
 }
 
 .btn-close:after {
-    color: #066;
+    color: $hovers;
     content: "\f00d";
     font-family: FontAwesome;
     -webkit-transition-property: all .2s linear 0s;
@@ -125,11 +146,11 @@ a.current {
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
     -o-transition: all .2s linear 0s;
-    border-bottom: 0
+    border-bottom: 0;
 }
 
 .btn-close:hover:after {
-    color: #066
+    color: $hovers;
 }
 
 .overlay {
@@ -140,64 +161,64 @@ a.current {
     width: 100%;
     background: #333;
     overflow: auto;
-    z-index: 99
+    z-index: 99;
 }
 
 .wrap {
     color: #e9e9e9;
     text-align: center;
     max-width: 90%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .wrap a.current {
     border-bottom: none;
-    color: #066!important
+    color: $hovers !important;
 }
 
 .wrap .social-media-mobile li {
     display: inline;
     list-style: none;
-    margin: 1em
+    margin: 1em;
 }
 
 .wrap .social-media-mobile li .fa {
-    font-size: 2em
+    font-size: 2em;
 }
 
 .wrap .social-media-mobile li a {
-    color: #066
+    color: $hovers;
 }
 
 .wrap .logo-bird {
     width: 20%;
     margin: 0 auto;
-    margin-top: 2em
+    margin-top: 2em;
 }
 
 .wrap .logo-bird img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 
 
 .content {
-    background-color: #fafafa
+    background-color: $light;
 }
 
 .contact-and-follow {
-    margin: 0
+    margin: 0;
 }
 
 .contact-and-follow .contact-box {
-    background: #fafafa
+    background: $light;
 }
 
 .contact-and-follow .contact-box .contact-form {
     padding: 2em;
     width: 70%;
     margin: 2em auto;
-    margin-top: 0
+    margin-top: 0;
 }
 
 .contact-and-follow .instagram-box .insta-inner {
@@ -205,25 +226,25 @@ a.current {
     border: 1px dotted;
     width: 50%;
     margin: 2em auto;
-    margin-top: 1em
+    margin-top: 1em;
 }
 
 .full-contact {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    background-color: #fafafa
+    background-color: $light;
 }
 
 .full-contact .headerSpan {
-    padding-top: 1em
+    padding-top: 1em;
 }
 
 .full-contact .contact-form {
     padding: 2em;
     width: 70%;
     margin: 0 auto;
-    margin-top: 0
+    margin-top: 0;
 }
 
 .content-inner {
@@ -231,47 +252,47 @@ a.current {
     margin-bottom: 2em;
     padding: 3em;
     margin: 0 auto;
-    text-align: center
+    text-align: center;
 }
 
 .content-inner p {
     padding: 0 2em;
-    text-align: center
+    text-align: center;
 }
 
 .cross {
     width: 100px;
-    height: 100px
+    height: 100px;
 }
 
 .cross img {
     max-width: 100%;
-    height: auto
+    height: auto;
 }
 
 
 
 .hero-latest-work {
-    height: 300px
+    height: 300px;
 }
 
 .hero-latest-work .hero-lastest-info {
-    padding: 4em
+    padding: 4em;
 }
 
 .hero-latest-work .hero-latest-img img {
     max-width: 100%;
     height: auto;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .cell-logo {
-    display: none
+    display: none;
 }
 
 a.current {
     border-bottom: 1px solid;
-    color: #066!important
+    color: $hovers !important;
 }
 
 .button-mobile {
@@ -283,17 +304,17 @@ a.current {
     font-size: 30px;
     color: #033;
     display: none;
-    margin-top: 2em
+    margin-top: 2em;
 }
 
 .button-mobile a.btn-close,
 .button-mobile a.btn-open {
     border-bottom: 0;
-    color: transparent!important
+    color: transparent!important;
 }
 
 .button a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .btn-open:after {
@@ -304,15 +325,15 @@ a.current {
     transition-property: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s
+    -o-transition: all .2s linear 0s;
 }
 
 .btn-open:hover:after {
-    color: #blackbird
+    color: $hovers;
 }
 
 .btn-close:after {
-    color: #066;
+    color: $hovers;
     content: "\f00d";
     font-family: FontAwesome;
     -webkit-transition-property: all .2s linear 0s;
@@ -320,11 +341,11 @@ a.current {
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
     -o-transition: all .2s linear 0s;
-    border-bottom: 0
+    border-bottom: 0;
 }
 
 .btn-close:hover:after {
-    color: #066
+    color: $hovers;
 }
 
 .overlay {
@@ -335,58 +356,58 @@ a.current {
     width: 100%;
     background: #333;
     overflow: auto;
-    z-index: 99
+    z-index: 99;
 }
 
 .wrap {
     color: #e9e9e9;
     text-align: center;
     max-width: 90%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .wrap a.current {
     border-bottom: none;
-    color: #066!important
+    color: #066!important;
 }
 
 .wrap .social-media-mobile li {
     display: inline;
     list-style: none;
-    margin: 1em
+    margin: 1em;
 }
 
 .wrap .social-media-mobile li .fa {
-    font-size: 2em
+    font-size: 2em;
 }
 
 .wrap .social-media-mobile li a {
-    color: #066
+    color: $hovers;
 }
 
 .wrap .logo-bird {
     width: 20%;
     margin: 0 auto;
-    margin-top: 2em
+    margin-top: 2em;
 }
 
 .wrap .logo-bird img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .wrap .wrap-nav {
-    font-family: texgyreadventorregular;
+    font-family: $headline;
     font-weight: 700;
-    letter-spacing: .3em
+    letter-spacing: .3em;
 }
 
 .wrap .wrap-nav ul#menu-header-menu-1 {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .wrap ul.wrap-nav {
-    text-transform: capitalize
+    text-transform: capitalize;
 }
 
 .wrap ul.wrap-nav li {
@@ -395,7 +416,7 @@ a.current {
     vertical-align: top;
     width: 24%;
     position: relative;
-    margin-bottom: 0
+    margin-bottom: 0;
 }
 
 .wrap ul.wrap-nav li a {
@@ -408,61 +429,61 @@ a.current {
     transition-property: all .2s linear 0s;
     -moz-transition: all .2s linear 0s;
     -webkit-transition: all .2s linear 0s;
-    -o-transition: all .2s linear 0s
+    -o-transition: all .2s linear 0s;
 }
 
 .wrap ul.wrap-nav li a:hover {
-    color: #f0f0f0
+    color: #f0f0f0;
 }
 
 .wrap ul.wrap-nav ul {
-    padding: 20px 0
+    padding: 20px 0;
 }
 
 .wrap ul.wrap-nav ul li {
     display: block;
     font-size: 13px;
     width: 100%;
-    color: #e9e9e9
+    color: #e9e9e9;
 }
 
 .wrap ul.wrap-nav ul li a {
-    color: #f0f0f0
+    color: #f0f0f0;
 }
 
 .wrap ul.wrap-nav ul li a:hover {
-    color: #34b484
+    color: $hovers;
 }
 
 
 
 .birdy {
     width: 25%;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .birdy img {
-    max-width: 100%
+    max-width: 100%;
 }
 
 .project-inner {
     margin: 2em;
-    border-bottom: 1px dotted
+    border-bottom: 1px dotted;
 }
 
 .project-inner .project-main-image img {
     max-width: 100%;
     height: auto;
-    padding-bottom: 1.5em
+    padding-bottom: 1.5em;
 }
 
 .content-inner h1 {
-    text-align: center
+    text-align: center;
 }
 
 .content-inner p {
     padding: 3em;
-    text-align: left
+    text-align: left;
 }
 
 
@@ -470,25 +491,25 @@ a.current {
 
 
 .slider-container {
-    height: 350px
+    height: 350px;
 }
 
 .slick-slider {
     height: 350px;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 2em
+    margin-bottom: 2em;
 }
 
 .latest-work {
-    text-align: center
+    text-align: center;
 }
 
 .box {
     cursor: pointer;
     height: 300px;
     position: relative;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .box img {
@@ -499,7 +520,7 @@ a.current {
     width: 100%;
     height: 300px;
     -webkit-transition: all .3s ease-out;
-    transition: all .3s ease-out
+    transition: all .3s ease-out;
 }
 
 .box .overbox {
@@ -513,18 +534,18 @@ a.current {
     transition: all .3s ease-out;
     opacity: 0;
     width: 100%;
-    height: 300px
+    height: 300px;
 }
 
 .box:hover .overbox {
-    opacity: 1
+    opacity: 1;
 }
 
 .box .overtext {
     -webkit-transition: all .3s ease-out;
     transition: all .3s ease-out;
     transform: translateY(40px);
-    -webkit-transform: translateY(40px)
+    -webkit-transform: translateY(40px);
 }
 
 .box .title {
@@ -534,14 +555,14 @@ a.current {
     -webkit-transition-delay: .1s;
     transition-delay: .1s;
     -webkit-transition-duration: .2s;
-    transition-duration: .2s
+    transition-duration: .2s;
 }
 
 .box:focus .title,
 .box:hover .title {
     opacity: 1;
     transform: translateY(0);
-    -webkit-transform: translateY(0)
+    -webkit-transform: translateY(0);
 }
 
 .box .tagline {
@@ -550,18 +571,18 @@ a.current {
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
     -webkit-transition-duration: .2s;
-    transition-duration: .2s
+    transition-duration: .2s;
 }
 
 .box:focus .tagline,
 .box:hover .tagline {
     opacity: 1;
     transform: translateX(0);
-    -webkit-transform: translateX(0)
+    -webkit-transform: translateX(0);
 }
 
 .row.twelve.columns.latest {
-    margin: 0
+    margin: 0;
 }
 
 .row.twelve.columns.latest .row.twelve.columns.latest-banner {
@@ -572,7 +593,7 @@ a.current {
     -ms-flex-pack: center;
     justify-content: center;
     border-bottom: 1px dotted;
-    border-top: 1px dotted
+    border-top: 1px dotted;
 }
 
 .row.twelve.columns.latest .row.twelve.columns.latest-banner .work-info {
@@ -582,35 +603,35 @@ a.current {
     margin: 0 auto;
     background-color: rgba(247, 247, 247, .58);
     text-align: center;
-    padding: 5em
+    padding: 5em;
 }
 
 .row.twelve.columns.latest .row.twelve.columns.latest-banner .latestSpan span {
     display: inline;
     position: relative;
     font-size: 2.5em;
-    text-transform: uppercase
+    text-transform: uppercase;
 }
 
 .row.twelve.columns.latest .row.twelve.columns.latest-banner .latestSpan span:before {
     content: "";
     position: absolute;
     height: 20px;
-    border-bottom: 1px dotted #202224;
+    border-bottom: 1px dotted $text;
     top: 0;
     width: 50%;
     right: 100%;
-    margin-right: 15px
+    margin-right: 15px;
 }
 
 .row.twelve.columns.latest .row.twelve.columns.latest-banner .latestSpan span:after {
     content: "";
     position: absolute;
     height: 20px;
-    border-bottom: 1px dotted #202224;
+    border-bottom: 1px dotted $text;
     top: 0;
     width: 50%;
     left: 100%;
-    margin-left: 15px
+    margin-left: 15px;
 }
 

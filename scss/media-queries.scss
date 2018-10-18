@@ -50,6 +50,19 @@
     }
 }
 
+
+@media only screen and (max-width:850px) {
+    .nine.columns.content-inner-blog{
+        width: 100% !important;
+        padding: 0 3em;
+        padding-top: 3em;
+    }
+    .three.columns.sidebar {
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width:800px) {
     .four.columns.footer-contact,
     .four.columns.footer-site-links,
@@ -125,6 +138,12 @@
 @media only screen and (max-width:515px) {
     .menu-header-menu-container ul#menu-header-menu li a {
         font-size: 1em
+    }
+
+    .nine.columns.content-inner-blog{
+       
+        padding: 0 1em;
+    
     }
 }
 

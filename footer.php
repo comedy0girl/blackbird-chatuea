@@ -3,7 +3,7 @@
 
                 <div class="four columns footer-contact">
                     <h6>Contact</h6>
-                    <li><a class="mail-me" href="mailto:ryan@blackbirdchateau.com?Subject=Blackbird%20Chataue%20Enquiry">ryryblackbird@gmail.com</a></li>
+                    <li><a class="mail-me" href="mailto:ryan@blackbirdchateau.com?Subject=Blackbird%20Chataue%20Enquiry">ryan@blackbirdchateau.com</a></li>
                     <li>West Hollywood, CA</li>
                     
                 </div>

@@ -1,3 +1,9 @@
+@media only screen and (max-width:1318px) { 
+    .content-inner {
+        padding: 0;
+    }
+}
+
 @media only screen and (max-width:1238px) {
     .row.hero-navigation .top-inner .logo-bird img {
         max-width: 81%
@@ -159,7 +165,7 @@
 
 @media only screen and (max-width:434px) {
     .gallery-inner {
-        width: 50%
+        width: 57%
     }
     .menu-header-menu-container ul#menu-header-menu li {
         margin-right: 0;

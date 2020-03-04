@@ -3,7 +3,7 @@
     /* Template Name: Home Page */
  
 get_header(); ?>
-
+<main class="main" role="main">
 <div class="site-container">
    <div class="row twelve columns hero-container"></div>
     </div>
@@ -34,5 +34,6 @@ get_header(); ?>
     </div> 
 
 </div>
+</main>
 
 <?php get_footer(); ?>

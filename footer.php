@@ -22,7 +22,7 @@
             </div>
 
 
-        	<p class="two twelve columns copyright">
+            <p class="two twelve columns copyright">
                 &copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>
             </p>
       

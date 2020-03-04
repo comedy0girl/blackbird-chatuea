@@ -5,8 +5,8 @@
 get_header(); ?>
 
 <div class="twelve columns content">
-    <div class="content-inner gallery container">
-        <div class="offset-by-two ten columns gallery-inner">
+    <div class="gallery">
+        <div class="gallery-inner">
              <?php if ( have_posts() ) : 
                 while ( have_posts() ) : 
                         the_post(); 
